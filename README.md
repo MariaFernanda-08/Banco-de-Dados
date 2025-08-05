@@ -92,4 +92,31 @@ Ganhadores do Oscar
 
   - Agora todas as tabelas possuem dados dependentes da chave-primária Filme, caso queira mudar/adicionar do Diretor, basta atualizar a tabela Diretor x ID x Nacionalidade.
 
-### Estrutura Não Relacional
+### Estrutura Não Relacional em Json
+
+```
+json 
+CopiarEditar[ 
+  { 
+    Filme: ["Anora"], 
+    Diretor: ["Sean S. Baker"],  
+    Categoria: ["Melhor Filme", "Melhor Atriz",",Melhor Edição","Melhor Roteiro"] 
+  }, 
+  { 
+    Filme: ["O Brutalista"], 
+    Diretor: ["Brady Corbet"],
+    Categoria: ["Melhor Ator", "Melhor Trilha Sonora","Melhor Fotografia"]
+  }, 
+  { 
+    Filme: ["Ainda Estou Aqui"], 
+    Diretor: ["Walter Salles"], 
+    Categoria:["Melhor Filme Internacional"] 
+  { 
+    Filme: ["Duna Parte 2"], 
+    Diretor: ["Denis Villeneuve"],
+    Categoria: ["Melhor Efeitos Visuais"]
+  }, 
+  }
+  ]
+
+```
